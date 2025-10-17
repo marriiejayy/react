@@ -25,6 +25,7 @@ Requirements:
    * One sentence about yourself in `<p>`
 3. Use this component in `App.jsx`
 
+Challenge: Create 2 different profiles in `App.jsx`
 
 ![Profile component](https://github.com/user-attachments/assets/44e76edf-a2fd-4acc-9db9-92c42a3016e8)
 
