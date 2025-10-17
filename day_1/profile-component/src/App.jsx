@@ -1,11 +1,14 @@
-import Header from './Profile';
+import Profile from './Profile';
+import Profiletwo from './profiletwo';
 
 import './App.css'
 
 function App() {
   return (
     <div >
-      <Header />
+      <Profile />
+      <Profiletwo />
+
     </div>
   );
 }

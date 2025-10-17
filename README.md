@@ -11,7 +11,7 @@ Create your first custom React component
    * A welcome message in another `<p>` tag
 3. Import and display it in `App.jsx`
 
-![Hello component](https://github.com/user-attachments/assets/2fa59f49-11dd-4ab3-9480-cbef975fe99c)
+![Hello component](https://github.com/user-attachments/assets/78c7b288-b80e-4538-ae06-fe4f4612fd40")
 
 ## Profile component
  Build a simple profile card using JSX
@@ -26,7 +26,8 @@ Requirements:
 3. Use this component in `App.jsx`
 
 
-![Profile component](https://github.com/user-attachments/assets/dc12c8c6-95ec-4aaa-85a3-8ad7612c1dae)
+![Profile component](https://github.com/user-attachments/assets/44e76edf-a2fd-4acc-9db9-92c42a3016e8)
+
 
 ## Simple layout
 Task: Combine multiple components together
