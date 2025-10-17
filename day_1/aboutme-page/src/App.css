@@ -1,0 +1,108 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: white;
+  min-height: 100vh;
+}
+
+.app-container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+
+.header {
+  background-color: green;
+  color: white;
+  text-align: center;
+  padding: 30px 20px;
+  margin-bottom: 20px;
+}
+
+.skills {
+  background-color: white;
+  padding: 30px;
+  border-radius: 5px;
+  margin-bottom: 30px;
+}
+
+.skills h2 {
+  color: green;
+  font-size: 2rem;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.skills-list {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.skill-item {
+  background-color: white;
+  color: green;
+  padding: 15px 20px;
+  border-radius: 5px;
+  font-weight:bold;
+  font-size: 1rem;
+}
+
+.location {
+  background-color: green;
+  color: white;
+  padding: 30px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+ 
+}
+
+.location h2 {
+  color: white;
+  font-size: 2rem;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.city {
+  color: white;
+  margin-bottom: 15px;
+}
+
+h3 { 
+  margin-bottom: 20px;
+}
+
+.footer {
+  background-color: green;
+  color: white;
+  padding: 30px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+
+.social-links {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.social-link {
+  background-color: white;
+  color: green;
+  padding: 12px 25px;
+  border-radius: 5px;
+}
+
+.copyright {
+  margin-top: 20px;
+}
