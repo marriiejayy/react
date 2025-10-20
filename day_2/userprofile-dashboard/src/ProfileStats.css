@@ -1,0 +1,28 @@
+.profile-stats {
+  display: flex;
+  justify-content: space-around;
+  margin: 20px 0;
+}
+
+.stat {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  cursor: pointer;
+  padding: 8px;
+  border-radius: 8px;
+  transition: background-color 0.3s;
+}
+
+.stat:hover {
+  background-color: #f0f0f0;
+}
+
+.stat strong {
+  font-size: 18px;
+}
+
+.stat span {
+  font-size: 14px;
+  color: #666;
+}
