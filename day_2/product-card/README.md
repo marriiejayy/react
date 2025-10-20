@@ -9,4 +9,4 @@
 7. In App.jsx, display 3 different products
 - Challenge: If out of stock, add a gray overlay to the image
 
-![Productcard]()
+![Productcard](https://github.com/user-attachments/assets/ee3db495-4f7f-4045-8349-c8fc99a57293)

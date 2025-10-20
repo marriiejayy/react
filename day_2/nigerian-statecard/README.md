@@ -24,4 +24,4 @@ Population: 14 million
 
 **Challenge:** Add a `children` prop to include a famous landmark for each state
 
-![NigerianStateCard]()
+![NigerianStateCard](https://github.com/user-attachments/assets/a0a9cde1-74ad-449f-8142-c6a9c9563e2a)
