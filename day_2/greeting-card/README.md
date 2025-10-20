@@ -8,5 +8,5 @@
 5. In App.jsx, create 3 different greeting cards with different colors
 - Challenge: Add a default color if no color is provided
 
-![Taskone]()
+![Taskone](https://github.com/user-attachments/assets/c8163e6f-0f1d-48a7-ba6f-02316b4d9912)
 
