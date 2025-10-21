@@ -1,16 +1,24 @@
-# React + Vite
+# 🎯 Practice Exercise 3: Simple Layout
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Task: Combine multiple components together
 
-Currently, two official plugins are available:
+### Requirements:
+1. Create three components:
+   * `Header.jsx` - with site title "My React App"
+   * `Content.jsx` - with a heading and paragraph
+   * `Footer.jsx` - with "© 2025 My App"
+2. Import all three into `App.jsx` and arrange them vertically
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+### Sample Output:
+```
+My React App
+---
+Welcome to React
+This is my first multi-component app.
+---
+© 2025 My App
+```
 
-## React Compiler
+- Challenge: Add a navigation menu to the Header with 3 links
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+![simplelayout]()

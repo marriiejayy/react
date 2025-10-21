@@ -1,16 +1,24 @@
-# React + Vite
+# 🎯 Practice Exercise 2: Profile Component
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Task: Build a simple profile card using JSX
 
-Currently, two official plugins are available:
+### Requirements:
+1. Create `Profile.jsx`
+2. Inside the component, add:
+   * An image tag (use any placeholder URL)
+   * Your name in `<h2>`
+   * Your role (e.g., "Student Developer") in `<h3>`
+   * One sentence about yourself in `<p>`
+3. Use this component in `App.jsx`
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+#### Sample Output:
+```
+[Image]
+Amaka Johnson
+Student Developer
+Learning React to build amazing web apps in Nigeria.
+```
 
-## React Compiler
+- Challenge: Create 2 different profiles in `App.jsx`
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+![profilecomponent]()
