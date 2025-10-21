@@ -13,4 +13,4 @@
 -Challenge: 
 🎨 Add Nigerian colors (green and white) to your page design using CSS.
 
-![Aboutme]()
+![Aboutme](https://github.com/user-attachments/assets/95cbb28d-7437-485b-967f-cb0757c08a25)

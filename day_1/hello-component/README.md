@@ -20,4 +20,4 @@ Welcome to my React journey!
 ```
 
 
-![hellocomponent]()
+![hellocomponent](https://github.com/user-attachments/assets/78c7b288-b80e-4538-ae06-fe4f4612fd40)

@@ -21,4 +21,4 @@ This is my first multi-component app.
 
 - Challenge: Add a navigation menu to the Header with 3 links
 
-![simplelayout]()
+![simplelayout](https://github.com/user-attachments/assets/ba5dedba-2421-4806-a407-f813d6a9146d)
