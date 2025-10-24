@@ -1,0 +1,79 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+ display: flex;
+ justify-content: space-evenly;
+ max-width: 1200px;
+ font-family: 'Times New Roman', Times, serif;
+}
+
+.name-tag-generator {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.input-group {
+  margin-bottom: 15px;
+}
+
+.input-group label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.input-group input {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 14px;
+}
+
+.name-tag-preview {
+  border-radius: 10px;
+  padding: 20px;
+  text-align: center;
+  background-color: lightseagreen;
+  color: white;
+  margin: 20px 0;
+}
+
+.name-tag-preview h3 {
+  margin: 15px ;
+  font-size: 14px;
+}
+
+.name-tag-preview h2 {
+  margin: 15px 0;
+  font-size: 24px;
+}
+
+.job-title {
+  font-weight: bold;
+  margin: 10px 0;
+}
+
+.company {
+  margin: 10px 0;
+}
+
+.download-btn {
+  width: 100%;
+  padding: 12px;
+  background-color: lightseagreen;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.download-btn:hover {
+  background-color: #006b41;
+}
