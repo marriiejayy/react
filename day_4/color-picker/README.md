@@ -1,16 +1,29 @@
-# React + Vite
+## 🎯 Task 2: Color Picker
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**Task:** Create a color picker where RGB sliders update a color preview
 
-Currently, two official plugins are available:
+**Requirements:**
+1. Create parent component `ColorPicker.jsx`
+2. Create `RGBSlider.jsx` component (reusable for R, G, B)
+3. Create `ColorDisplay.jsx` component to show the color
+4. Lift RGB values state to parent
+5. Each slider ranges from 0-255
+6. Display the RGB values and hex code
+7. Show color preview box
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+**Sample Output:**
+```
+🎨 Color Picker
 
-## React Compiler
+Red: [255] ━━━━━━●
+Green: [100] ━━●━━━━
+Blue: [50] ━●━━━━━━
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+RGB: (255, 100, 50)
+HEX: #FF6432
+[Color Preview Box]
+```
 
-## Expanding the ESLint configuration
+**Challenge:** Add a "Copy Hex" button that copies the hex code
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+![colorpicker]()
