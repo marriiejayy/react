@@ -25,4 +25,4 @@ Paystack
 **Challenge:** Add a "Download" button that shows an alert with the formatted name tag
 
 
-![nametag]()
+![nametag](https://github.com/user-attachments/assets/6b7ded83-d168-4464-9d45-e9ba0e7370c1)

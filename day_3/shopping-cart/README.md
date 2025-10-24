@@ -26,4 +26,4 @@ Total: ₦3,500
 
 - Challenge: Add a "Clear Cart" button that removes all items
 
-![shoppingcart]()
+![shoppingcart](https://github.com/user-attachments/assets/67d117d5-4741-4ceb-a795-f316ff25260b)

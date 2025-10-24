@@ -22,4 +22,4 @@ Count: 5
 
 **Challenge:** Don't allow count to go below 0
 
-![simplecounter]()
+![simplecounter](https://github.com/user-attachments/assets/1240d235-77fe-44c0-860c-6370b8dbb003)
