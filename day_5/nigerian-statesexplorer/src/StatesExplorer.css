@@ -1,0 +1,96 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.states-explorer {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 25px;
+  font-family: Arial, sans-serif;
+}
+
+.states-explorer h1 {
+  text-align: center;
+  color: black;
+  margin-bottom: 30px;
+}
+
+.search-container {
+  margin-bottom: 20px;
+}
+
+.search-input {
+  width: 100%;
+  padding: 10px;
+  font-size: 24px;
+  border: 2px solid #ddd;
+  border-radius: 8px;
+}
+
+.region-filters {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+  justify-content: center;
+}
+
+.region-filters button {
+  padding: 15px ;
+  border: 2px solid green;
+  background: white;
+  color: black;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 24px;
+}
+
+.region-filters button.active {
+  background-color:rgb(14, 101, 14);
+  color: white;
+}
+
+.region-filters button:hover {
+  background-color: lightgreen;
+  color: white;
+}
+
+.results-count {
+  text-align: center;
+  color: black;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.states-grid {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.state-card {
+  background: white;
+  padding: 10px;
+  border-radius: 10px;
+  border: 2px solid #ddd;
+}
+
+
+.state-card h3 {
+  color: black;
+  margin-bottom: 5px;
+}
+
+.state-info p {
+  margin: 10px;
+  color: black;
+}
+
+.empty-state {
+  text-align: center;
+  padding: 30px 20px;
+  color: black;
+  background-color: white;
+  border-radius: 8px;
+}

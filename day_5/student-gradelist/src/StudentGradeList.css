@@ -1,0 +1,94 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.student-grades {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.student-grades h1 {
+  text-align: center;
+  color: black;
+  margin-bottom: 30px;
+}
+
+.filter-buttons {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+  justify-content: center;
+}
+
+.filter-buttons button {
+  padding: 10px 20px;
+  border: 2px solid #ddd;
+  background: white;
+  color: black;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.filter-buttons button.active {
+  background-color: navy;
+  color: white;
+}
+
+.filter-buttons button:hover {
+  background-color: rgb(64, 64, 213);
+  color: white;
+}
+
+.student-list {
+  margin-bottom: 20px;
+}
+
+.student-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;
+  margin-bottom: 10px;
+  background: white;
+  border-radius: 8px;
+  border: 2px solid #ddd;
+}
+
+
+.student-name {
+  font-weight: bold;
+  color: black;
+}
+
+.student-subject {
+  color: black;
+}
+
+.status {
+  font-weight: bold;
+  padding: 5px 10px;
+  border-radius: 15px;
+}
+
+.status.pass {
+  color: #27ae60;
+  background-color: #d5f4e6;
+}
+
+.status.fail {
+  color: #e74c3c;
+  background-color: #fadbd8;
+}
+
+.statistics {
+  text-align: center;
+  padding: 15px;
+  background-color: #ecf0f1;
+  border-radius: 8px;
+  margin-top: 20px;
+}
+
