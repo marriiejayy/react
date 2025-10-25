@@ -27,3 +27,5 @@ Jollof Rice - ₦1,500
 ```
 
 **Challenge:** Add sorting by price (Low to High, High to Low)
+
+![productcatalog](https://github.com/user-attachments/assets/72ff2ff7-9171-4db4-b69a-8a6c434563c6)
