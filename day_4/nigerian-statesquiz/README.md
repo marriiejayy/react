@@ -32,4 +32,4 @@ What is the capital of Lagos State?
 
 ---
 
-![nigerianstatesquiz]()
+![nigerianstatesquiz](https://github.com/user-attachments/assets/f1e568fe-961b-4037-8165-466c6b8652ba)

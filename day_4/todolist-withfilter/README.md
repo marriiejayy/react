@@ -28,4 +28,6 @@ Total: 3 tasks | Completed: 1
 
 **Challenge:** Add "Clear Completed" button
 
-![todolistwithfilter]()
+![todolistwithfilter](https://github.com/user-attachments/assets/b1863577-ccbc-47a8-98df-1a189ab761ad)
+
+![todolistwithfilter2](https://github.com/user-attachments/assets/14bda136-b8e3-428a-b8e9-ea384842ca95)

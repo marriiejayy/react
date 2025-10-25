@@ -26,4 +26,4 @@ HEX: #FF6432
 
 **Challenge:** Add a "Copy Hex" button that copies the hex code
 
-![colorpicker]()
+![colorpicker](https://github.com/user-attachments/assets/f9ab4d8b-6d43-4df6-ac66-b105e11bbfb4)
