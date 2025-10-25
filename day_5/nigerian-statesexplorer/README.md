@@ -24,4 +24,6 @@ Showing 2 of 10 states
 
 **Challenge:** Add region filter buttons (North, South, East, West)
 
-![nigerianstatesexplorer]()
+![nigerianstatesexplorer](https://github.com/user-attachments/assets/9bc55721-33b8-4b55-8e5d-740b717791e8)
+
+![nigerianstatesexplorer2](https://github.com/user-attachments/assets/56a34400-dc95-4d9b-8c8c-515612ef1672)
