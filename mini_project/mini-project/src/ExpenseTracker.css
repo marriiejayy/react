@@ -1,0 +1,422 @@
+/* Basic Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body Styling */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f2f5;
+  color: #333;
+  line-height: 1.5;
+}
+
+/* Main App Container */
+.app {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Header */
+.header {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+  margin-bottom: 20px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.header h1 {
+  color: #2c5aa0;
+  margin-bottom: 10px;
+  font-size: 28px;
+}
+
+.header p {
+  color: #666;
+  margin-bottom: 5px;
+}
+
+.date {
+  background: #e9ecef;
+  padding: 5px 15px;
+  border-radius: 15px;
+  display: inline-block;
+  font-size: 14px;
+  color: #555;
+}
+
+/* Layout */
+.container {
+  display: flex;
+  gap: 20px;
+}
+
+.left-panel {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.right-panel {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+/* Common Card Style */
+.add-expense-form,
+.category-filter,
+.expense-stats,
+.expense-list {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+/* Form Styling */
+.add-expense-form h2,
+.expense-stats h2,
+.expense-list h2,
+.category-filter h3 {
+  color: #2c5aa0;
+  margin-bottom: 15px;
+  font-size: 20px;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+  color: #555;
+}
+
+.form-group input,
+.form-group select {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.form-group input:focus,
+.form-group select:focus {
+  outline: none;
+  border-color: #2c5aa0;
+}
+
+.add-btn {
+  width: 100%;
+  padding: 12px;
+  background: #2c5aa0;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.add-btn:hover {
+  background: #1e3d6f;
+}
+
+/* Category Filter */
+.filter-buttons {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+}
+
+.filter-btn {
+  padding: 10px;
+  border: 1px solid #ddd;
+  background: white;
+  border-radius: 5px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  justify-content: center;
+}
+
+.filter-btn.active {
+  background: #2c5aa0;
+  color: white;
+  border-color: #2c5aa0;
+}
+
+.filter-btn:hover:not(.active) {
+  border-color: #2c5aa0;
+}
+
+/* Statistics */
+.stats-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.stat-card {
+  background: #f8f9fa;
+  padding: 15px;
+  border-radius: 5px;
+  text-align: center;
+  border: 1px solid #e9ecef;
+}
+
+.stat-value {
+  font-size: 24px;
+  font-weight: bold;
+  color: #2c5aa0;
+  display: block;
+}
+
+.stat-label {
+  color: #666;
+  font-size: 14px;
+}
+
+.category-breakdown h3 {
+  margin-bottom: 10px;
+  font-size: 18px;
+}
+
+.category-item {
+  margin-bottom: 15px;
+}
+
+.category-header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 5px;
+}
+
+.category-name {
+  font-weight: bold;
+}
+
+.category-amount {
+  color: #666;
+}
+
+.progress-bar {
+  height: 8px;
+  background: #e9ecef;
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.progress-fill {
+  height: 100%;
+  border-radius: 4px;
+}
+
+/* Progress Bar Colors */
+.progress-fill[style*="Food"] { background: #ff6b6b; }
+.progress-fill[style*="Transport"] { background: #4ecdc4; }
+.progress-fill[style*="Bills"] { background: #45b7d1; }
+.progress-fill[style*="Entertainment"] { background: #96ceb4; }
+.progress-fill[style*="Others"] { background: #feca57; }
+
+/* Expense List */
+.expenses-container {
+  max-height: 400px;
+  overflow-y: auto;
+}
+
+.empty-state {
+  text-align: center;
+  padding: 40px 20px;
+  color: #666;
+}
+
+.empty-icon {
+  font-size: 48px;
+  margin-bottom: 10px;
+}
+
+.empty-state h3 {
+  margin-bottom: 10px;
+  color: #555;
+}
+
+/* Expense Item */
+.expense-item {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  padding: 15px;
+  border-bottom: 1px solid #eee;
+  background: white;
+}
+
+.expense-item:last-child {
+  border-bottom: none;
+}
+
+.expense-item:hover {
+  background: #f8f9fa;
+}
+
+.expense-icon {
+  font-size: 24px;
+  width: 40px;
+  text-align: center;
+}
+
+.expense-details {
+  flex: 1;
+}
+
+.expense-description {
+  font-weight: bold;
+  margin-bottom: 5px;
+  color: #333;
+}
+
+.expense-amount {
+  font-size: 18px;
+  font-weight: bold;
+  color: #e74c3c;
+  margin-bottom: 5px;
+}
+
+.expense-meta {
+  display: flex;
+  gap: 15px;
+  font-size: 14px;
+}
+
+.expense-category {
+  background: #e9ecef;
+  padding: 2px 8px;
+  border-radius: 10px;
+  color: #555;
+}
+
+.expense-date {
+  color: #777;
+}
+
+.expense-actions {
+  display: flex;
+  gap: 10px;
+}
+
+.edit-btn, .delete-btn, .save-btn, .cancel-btn {
+  background: none;
+  border: none;
+  font-size: 18px;
+  cursor: pointer;
+  padding: 5px;
+  border-radius: 3px;
+}
+
+.edit-btn:hover {
+  background: #3498db;
+  color: white;
+}
+
+.delete-btn:hover {
+  background: #e74c3c;
+  color: white;
+}
+
+.save-btn:hover {
+  background: #27ae60;
+  color: white;
+}
+
+.cancel-btn:hover {
+  background: #95a5a6;
+  color: white;
+}
+
+.edit-form {
+  display: flex;
+  gap: 10px;
+  width: 100%;
+}
+
+.edit-input {
+  padding: 8px;
+  border: 1px solid #ddd;
+  border-radius: 3px;
+  font-size: 14px;
+  flex: 1;
+}
+
+.edit-input.amount {
+  width: 100px;
+  flex: none;
+}
+
+.edit-input:focus {
+  outline: none;
+  border-color: #2c5aa0;
+}
+
+/* Category Colors for Items */
+.expense-item.food .expense-category { background: #ffeaa7; }
+.expense-item.transport .expense-category { background: #81ecec; }
+.expense-item.bills .expense-category { background: #74b9ff; }
+.expense-item.entertainment .expense-category { background: #a29bfe; }
+.expense-item.others .expense-category { background: #fd79a8; }
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .container {
+    flex-direction: column;
+  }
+  
+  .stats-grid {
+    grid-template-columns: 1fr;
+  }
+  
+  .filter-buttons {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  
+  .expense-item {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+  }
+  
+  .expense-actions {
+    align-self: flex-end;
+  }
+  
+  .app {
+    padding: 10px;
+  }
+  
+  .header h1 {
+    font-size: 24px;
+  }
+}
+
+@media (max-width: 600px) {
+  .filter-buttons {
+    grid-template-columns: 1fr;
+  }
+  
+  .expense-meta {
+    flex-direction: column;
+    gap: 5px;
+  }
+}
