@@ -58,3 +58,4 @@ App.jsx (main - holds all state)
   date: "2025-01-15"
 }
 ```
+![miniproject](https://github.com/user-attachments/assets/118babab-e262-43fa-b73e-82167d755187)
