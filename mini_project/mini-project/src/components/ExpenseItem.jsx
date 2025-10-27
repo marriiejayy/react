@@ -32,13 +32,13 @@ function ExpenseItem({ expense, onDelete, onEdit }) {
   
   const getCategoryIcon = (category) => {
     const icons = {
-      'Food': '🍔',
-      'Transport': '🚗',
-      'Bills': '📄',
-      'Entertainment': '🎬',
-      'Others': '📦'
+      'Food': '',
+      'Transport': '',
+      'Bills': '',
+      'Entertainment': '',
+      'Others': ''
     };
-    return icons[category] || '📦';
+    return icons[category] || '';
   };
   
   return (
@@ -79,13 +79,13 @@ function ExpenseItem({ expense, onDelete, onEdit }) {
       <div className="expense-actions">
         {isEditing ? (
           <>
-            <button onClick={handleEdit} className="save-btn">💾</button>
-            <button onClick={handleCancel} className="cancel-btn">❌</button>
+            <button onClick={handleEdit} className="save-btn">Save</button>
+            <button onClick={handleCancel} className="cancel-btn">Delete</button>
           </>
         ) : (
           <>
-            <button onClick={() => setIsEditing(true)} className="edit-btn">✏️</button>
-            <button onClick={() => onDelete(expense.id)} className="delete-btn">🗑️</button>
+            <button onClick={() => setIsEditing(true)} className="edit-btn">Edit</button>
+            <button onClick={() => onDelete(expense.id)} className="delete-btn">Delete</button>
           </>
         )}
       </div>

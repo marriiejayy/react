@@ -47,11 +47,11 @@ function AddExpenseForm({ onAddExpense }) {
         <div className="form-group">
           <label>Category</label>
           <select value={category} onChange={(e) => setCategory(e.target.value)}>
-            <option value="Food">🍔 Food</option>
-            <option value="Transport">🚗 Transport</option>
-            <option value="Bills">📄 Bills</option>
-            <option value="Entertainment">🎬 Entertainment</option>
-            <option value="Others">📦 Others</option>
+            <option value="Food"> Food</option>
+            <option value="Transport"> Transport</option>
+            <option value="Bills"> Bills</option>
+            <option value="Entertainment"> Entertainment</option>
+            <option value="Others"> Others</option>
           </select>
         </div>
         

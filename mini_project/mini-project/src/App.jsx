@@ -27,13 +27,19 @@ function App() {
       description: "Netflix Subscription",
       amount: 3600,
       category: "Entertainment",
-      date: "2025-01-14"
+      date: "2025-01-16"
+    },
+    {
+      id: 4,
+      description: "Electricity bills",
+      amount: 36000,
+      category: "Bills",
+      date: "2025-01-16"
     }
   ]);
   
   const [categoryFilter, setCategoryFilter] = useState('All');
   
-  // Add new expense
   function addExpense(description, amount, category) {
     const newExpense = {
       id: Date.now(),
@@ -45,12 +51,10 @@ function App() {
     setExpenses([...expenses, newExpense]);
   }
   
-  // Delete expense
   function deleteExpense(id) {
     setExpenses(expenses.filter(expense => expense.id !== id));
   }
-  
-  // Edit expense
+
   function editExpense(id, newDescription, newAmount) {
     setExpenses(expenses.map(expense =>
       expense.id === id 
@@ -58,8 +62,7 @@ function App() {
         : expense
     ));
   }
-  
-  // Filter expenses by category
+
   const filteredExpenses = categoryFilter === 'All' 
     ? expenses 
     : expenses.filter(expense => expense.category === categoryFilter);

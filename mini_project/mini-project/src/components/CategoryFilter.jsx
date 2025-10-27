@@ -3,14 +3,14 @@ function CategoryFilter({ currentFilter, onFilterChange }) {
   
   const getCategoryIcon = (cat) => {
     const icons = {
-      'All': '📊',
-      'Food': '🍔',
-      'Transport': '🚗',
-      'Bills': '📄',
-      'Entertainment': '🎬',
-      'Others': '📦'
+      'All': '',
+      'Food': '',
+      'Transport': '',
+      'Bills': '',
+      'Entertainment': '',
+      'Others': ''
     };
-    return icons[cat] || '📦';
+    return icons[cat] || '';
   };
   
   return (
