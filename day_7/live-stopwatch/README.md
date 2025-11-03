@@ -51,3 +51,4 @@ Preview: "React App - Type here..."
 
 ---
 
+![stopwatch](https://github.com/user-attachments/assets/1ad10493-707a-4e22-8c8e-4b0d6fdab13a)
