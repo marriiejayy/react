@@ -1,0 +1,218 @@
+.countdown-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 40px;
+  background-color: rgb(225, 210, 210);
+  border-radius: 20px;
+  color: black;
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.3);
+  text-align: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.countdown-title {
+  font-size: 2.5em;
+  margin-bottom: 30px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.event-info {
+  margin-bottom: 40px;
+}
+
+.event-name {
+  font-size: 1.8em;
+  margin-bottom: 10px;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+}
+
+.event-date {
+  font-size: 1.3em;
+  color: black;
+  margin: 0;
+}
+
+.event-started {
+  font-size: 3em;
+  color: #4CAF50;
+  margin: 40px 0;
+}
+
+
+.countdown-display {
+  margin: 40px 0;
+}
+
+.time-units {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.time-unit {
+  background: rgba(255, 255, 255, 0.15);
+  padding: 25px 20px;
+  border-radius: 15px;
+  min-width: 120px;
+  border: 2px solid rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(10px);
+  transition: all 0.3s ease;
+}
+
+.time-unit:hover {
+  transform: translateY(-5px);
+  background: rgba(255, 255, 255, 0.2);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+}
+
+.time-value {
+  font-size: 3em;
+  font-weight: bold;
+  font-family: 'Courier New', monospace;
+  text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.4);
+  margin-bottom: 5px;
+}
+
+.time-label {
+  font-size: 1.1em;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: black;
+}
+
+.custom-date-section {
+  background: rgba(255, 255, 255, 0.1);
+  padding: 30px;
+  border-radius: 15px;
+  margin-top: 40px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.custom-date-section h3 {
+  margin-bottom: 20px;
+  font-size: 1.5em;
+}
+
+.custom-date-controls {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+}
+
+.date-input {
+  padding: 12px 15px;
+  font-size: 1.1em;
+  border: 2px solid rgba(255, 255, 255, 0.3);
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.1);
+  color: black;
+  transition: all 0.3s ease;
+  min-width: 250px;
+}
+
+.date-input:focus {
+  outline: none;
+  border-color: rgba(255, 255, 255, 0.6);
+  background: rgba(255, 255, 255, 0.15);
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.2);
+}
+
+.custom-date-buttons {
+  display: flex;
+  gap: 15px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.btn {
+  padding: 12px 25px;
+  font-size: 1.1em;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  font-weight: bold;
+  min-width: 180px;
+}
+
+.btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+.btn:active {
+  transform: translateY(0);
+}
+
+.btn-set {
+  background: #4CAF50;
+  color: black;
+}
+
+.btn-reset {
+  background: #ff9800;
+  color: black;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+  .countdown-container {
+    padding: 25px;
+    margin: 10px;
+  }
+  
+  .countdown-title {
+    font-size: 2em;
+  }
+  
+  .time-units {
+    gap: 15px;
+  }
+  
+  .time-unit {
+    min-width: 100px;
+    padding: 20px 15px;
+  }
+  
+  .time-value {
+    font-size: 2.2em;
+  }
+  
+  .custom-date-controls {
+    align-items: stretch;
+  }
+  
+  .date-input {
+    min-width: auto;
+  }
+  
+  .custom-date-buttons {
+    flex-direction: column;
+  }
+  
+  .btn {
+    min-width: auto;
+    width: 100%;
+  }
+}
+
+@media (max-width: 480px) {
+  .time-unit {
+    min-width: 80px;
+    padding: 15px 10px;
+  }
+  
+  .time-value {
+    font-size: 1.8em;
+  }
+  
+  .time-label {
+    font-size: 0.9em;
+  }
+  
+  .event-started {
+    font-size: 2em;
+  }
+}

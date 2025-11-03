@@ -1,0 +1,134 @@
+.title-updater-container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 40px;
+  background-color: rgb(181, 180, 198);
+  border-radius: 20px;
+  color: black;
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.3);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.title-updater-header {
+  text-align: center;
+  font-size: 2.2em;
+  margin-bottom: 30px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.input-section {
+  margin-bottom: 25px;
+}
+
+.input-label {
+  display: block;
+  margin-bottom: 8px;
+  font-size: 1.1em;
+  font-weight: 500;
+}
+
+.title-input {
+  width: 100%;
+  padding: 12px 15px;
+  font-size: 1.1em;
+  border: 2px solid rgba(255, 255, 255, 0.3);
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.1);
+  color: black;
+  transition: all 0.3s ease;
+  box-sizing: border-box;
+}
+
+.title-input::placeholder {
+  color: black;
+}
+
+.title-input:focus {
+  outline: none;
+  border-color: rgba(255, 255, 255, 0.6);
+  background: rgba(255, 255, 255, 0.15);
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.2);
+}
+
+.title-input.near-limit {
+  border-color: #ff9800;
+  background: rgba(255, 152, 0, 0.1);
+}
+
+.title-input.at-limit {
+  border-color: #f44336;
+  background: rgba(244, 67, 54, 0.1);
+}
+
+.char-counter {
+  text-align: right;
+  font-size: 0.9em;
+  margin-top: 5px;
+  transition: all 0.3s ease;
+}
+
+.char-counter.near-limit {
+  color: #ff9800;
+  font-weight: bold;
+}
+
+.char-counter.at-limit {
+  color: #f44336;
+  font-weight: bold;
+}
+
+.preview-section {
+  background: rgba(255, 255, 255, 0.1);
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 25px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  font-size: 1.1em;
+}
+
+.preview-text {
+  display: block;
+  margin-top: 8px;
+  font-style: italic;
+  color: black;
+  word-break: break-word;
+}
+
+.reset-btn {
+  width: 100%;
+  padding: 15px;
+  font-size: 1.1em;
+  background: rgba(244, 67, 54, 0.8);
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  font-weight: bold;
+}
+
+.reset-btn:hover {
+  background: rgba(244, 67, 54, 1);
+  transform: translateY(-2px);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+.reset-btn:active {
+  transform: translateY(0);
+}
+
+@media (max-width: 600px) {
+  .title-updater-container {
+    padding: 25px;
+    margin: 10px;
+  }
+  
+  .title-updater-header {
+    font-size: 1.8em;
+  }
+  
+  .title-input {
+    font-size: 1em;
+    padding: 10px 12px;
+  }
+}
