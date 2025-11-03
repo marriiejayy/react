@@ -24,4 +24,4 @@ Preview: "React App - Type here..."
 
 **Challenge:** Add character counter (max 60)
 
-![titleupdater]()
+![titleupdater](https://github.com/user-attachments/assets/c8b4eb1a-c988-46f1-831e-0696418a9180)
