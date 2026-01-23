@@ -15,12 +15,20 @@ Naija Tracker is a high-performance, responsive dashboard built to help users ma
 * **💾 Persistent Storage:** Data stays safe on your device using **Zustand Persistence**—no database required for the base version.
 
 ## 📳 UI view
-![desktopview]()
-![mobileview]()
+![desktopview1](https://github.com/user-attachments/assets/c3a4c4b6-93ab-4e88-aa6e-6ad366f5f2da)
+
+![desktopview2](https://github.com/user-attachments/assets/11fed5ed-3062-429d-9504-f7656a30e089)
+
+![mobileview](https://github.com/user-attachments/assets/624a7525-4d27-4445-9240-18be07d69480)
+
+![mobileview2](https://github.com/user-attachments/assets/d9762b8a-33b3-400d-8657-274be8045bfb)
+
+![mobileview3](https://github.com/user-attachments/assets/f16fb113-4442-49d5-9060-0abb8e833952)
+
 
 ## 🛠️ Tech Stack
 
-* **Frontend:** React 18 + Vite
+* **Frontend:** React + Vite
 * **State Management:** Zustand (with LocalStorage middleware)
 * **Styling:** Tailwind CSS
 * **Icons:** Lucide React (`react-icons/lu`)
@@ -50,7 +58,7 @@ src/
 1. **Clone the Repo**
 ```bash
 git clone https://github.com/yourusername/naija-tracker.git
-cd naija-tracker
+cd nigeria-expense-tracker
 
 ```
 
