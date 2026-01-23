@@ -1,8 +1,6 @@
-/* src/index.css */
 @import "tailwindcss";
 
 @theme {
-  /* Nigerian Color Palette */
   --color-naija-green: #008751;
   --color-naija-white: #FFFFFF;
   

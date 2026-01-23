@@ -1,4 +1,3 @@
-// src/App.jsx
 import React from 'react';
 import ExpenseTracker from './components/ExpenseTracker';
 

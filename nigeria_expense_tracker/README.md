@@ -1,16 +1,81 @@
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# 🇳🇬 Naija Expense Tracker
+Naija Tracker is a high-performance, responsive dashboard built to help users manage their Naira with intelligence. It features automated expense categorization using Nigerian slang, real-time FX conversion (USD/GBP), and professional PDF reporting.
 
-Currently, two official plugins are available:
+## ✨ Key Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+* **📊 Financial Visualizations:** Interactive Area Charts (Spending Trends) and Donut Charts (Category Breakdown) powered by **Recharts**.
 
-## React Compiler
+* **🌍 Multi-Currency Support:** Real-time conversion between **NGN, USD, and GBP** using live exchange rate APIs.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+* **🧠 Smart Categorization:** Built-in keyword engine that recognizes Nigerian terms like *Bole, Suya, Keke, Bolt, EKEDC, and Mama Put* to automatically tag expenses.
 
-## Expanding the ESLint configuration
+* **✏️ Search & Inline Edit:** Instant filtering of transaction history and the ability to update amounts or descriptions without leaving the page.
+* **📄 PDF Statements:** Generate and download professional, branded PDF reports of your financial history.
+* **💾 Persistent Storage:** Data stays safe on your device using **Zustand Persistence**—no database required for the base version.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 📳 UI view
+![desktopview]()
+![mobileview]()
+
+## 🛠️ Tech Stack
+
+* **Frontend:** React 18 + Vite
+* **State Management:** Zustand (with LocalStorage middleware)
+* **Styling:** Tailwind CSS
+* **Icons:** Lucide React (`react-icons/lu`)
+* **Charts:** Recharts
+* **PDF Generation:** jsPDF & jsPDF-AutoTable
+
+---
+
+## 📂 Project Structure
+
+```text
+src/
+├── components/
+│   ├── dashboard/       # Charts, CurrencyConverter, SummaryGrid, Modals
+│   ├── expenses/        # ExpenseForm, TransactionList (Search/Edit logic)
+│   └── ExpenseTracker.jsx # Main Layout Container
+├── store/
+│   └── expenseStore.js  # Centralized State & FX Logic
+└── App.jsx              # Root Entry Point
+
+```
+
+---
+
+## 🚀 Getting Started
+
+1. **Clone the Repo**
+```bash
+git clone https://github.com/yourusername/naija-tracker.git
+cd naija-tracker
+
+```
+
+
+2. **Install Dependencies**
+```bash
+npm install
+
+```
+
+
+3. **Run Development Server**
+```bash
+npm run dev
+
+```
+
+
+
+---
+
+## 🗺️ Roadmap
+
+* [ ] **User Auth:** Signup/Login via Supabase.
+* [ ] **AI Assistant (RAG):** Chat with your spending data to get saving tips.
+* [ ] **Receipt OCR:** Upload photos of receipts to auto-fill the form.
+
+---
